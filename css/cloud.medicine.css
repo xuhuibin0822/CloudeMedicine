@@ -1,0 +1,43 @@
+/**
+ * @author: xhb
+ * @create: 2017-12-30
+ * @description: 云药样式文件
+ */
+
+
+
+body {background-color: rgb(75, 193, 172);}
+
+::-webkit-input-placeholder { /* WebKit browsers */color: whitesmoke !important;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color: whitesmoke !important;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */color: whitesmoke !important;}
+:-ms-input-placeholder { /* Internet Explorer 10+ */color: whitesmoke !important;}
+
+.pop {position: absolute;left: 5%; top: 5%; bottom: 5%; width: 90%; background: rgb(107, 215, 212); border-radius: 5%;}
+.pop>p {text-align: center;margin-bottom: 15px;margin-top: 30px; color: whitesmoke;font-size: 20px;}
+.pop .mui-icon-back {position: absolute; left: 5%; top: 30px; padding-top: 1px; padding-right: 1px; color: whitesmoke; background: rgb(46,86,89); border-radius: 100%;}
+
+.line-divider {height: 5px; background: linear-gradient(to right, rgb(79, 205, 203), rgb(171, 233, 231), rgb(79, 205, 203)); border: none;}
+
+.code-input {width: 90%; margin-top: 20px; margin-left: 5%;}
+.code-input>input {display: inline-block; width: 60%; margin-bottom: 0px; background-color: rgb(75, 196, 193);color: whitesmoke; border-radius: 10px; border: 1px rgb(115,217,216) solid;}
+.code-input>button {float: right; width: 35%;text-align: center; padding: 0; height: 40px; border-radius: 10px;color: whitesmoke;font-size: 14px;background-color: rgb(75, 196, 193);border: 1px rgb(115,217,216) solid;}
+
+.rich-input {position: relative; width: 90%; height: 40px; margin-top: 20px; margin-left: 5%; padding: 0;color: whitesmoke; background-color: rgb(75, 196, 193); border-radius: 10px; border: 1px rgb(115,217,216) solid;}
+.rich-input img {position: absolute;display: inline;top: 5px; left: 5px; min-width: 30px;height: 30px; background: whitesmoke;}
+.rich-input input {padding-left: 44px; margin: 0;background: rgba(0,0,0,0);border: none;}
+.rich-input div {margin-left: 50px; border-bottom: whitesmoke 1px solid;}
+.rich-input div input {padding-left: 0px;}
+
+.btn-submit {width: 90%; height: 44px; margin-left: 5%; margin-top: 25px; background-color: rgb(75, 196, 193); color: whitesmoke; font-size: 18px; border: none;}
+
+.logo {display: table-cell; width: 80px; height: 80px; margin: 30px auto; background: white; border-radius: 100%; border: none;}
+
+.login {position: absolute; width: 100%; background: rgba(0,0,0,0);}
+.login .rich-input {background: rgba(0,0,0,0); border: none;}
+.login .btn-submit {color: #777; background: white; border-radius: 20px;box-shadow: 0px 2px rgb(0, 169, 152);}
+
+.operate-menu {width: 90%; height: 40px; margin-left: 5%; margin-top: 20px;}
+.operate-menu button {color: white; background: rgba(0,0,0,0); border: none;}
+.operate-menu .left-menu {float: left;}
+.operate-menu .right-menu {float: right;}
