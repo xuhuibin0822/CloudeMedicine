@@ -6,7 +6,8 @@
 
 
 
-body {background-color: rgb(75, 193, 172);}
+.bg-green {background-color: rgb(75, 193, 172);}
+.has-bottom {padding-bottom: 50px;}
 
 ::-webkit-input-placeholder { /* WebKit browsers */color: whitesmoke !important;}
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */color: whitesmoke !important;}
@@ -28,11 +29,10 @@ body {background-color: rgb(75, 193, 172);}
 .rich-input input {padding-left: 44px; margin: 0;background: rgba(0,0,0,0);border: none;}
 .rich-input div {margin-left: 50px; border-bottom: whitesmoke 1px solid;}
 .rich-input div input {padding-left: 0px;}
-.rich-input.white-style {margin-top:  5px; width: 70%; margin-left: 15%; background: white; color: #777; border: none;}
-.white-style input::-webkit-input-placeholder {color: #999 !important;}
+.rich-input.white-style {margin-top: 2px; width: 70%; margin-left: 15%; background: white; color: #777; border: none;}
+.rich-input.white-style input::-webkit-input-placeholder {color: #999 !important;}
 
 .btn-submit {width: 90%; height: 44px; margin-left: 5%; margin-top: 25px; background-color: rgb(75, 196, 193); color: whitesmoke; font-size: 18px; border: none;}
-
 .logo {display: table-cell; width: 80px; height: 80px; margin: 30px auto; background: white; border-radius: 100%; border: none;}
 
 .login {position: absolute; width: 100%; background: rgba(0,0,0,0);}
@@ -44,6 +44,7 @@ body {background-color: rgb(75, 193, 172);}
 .operate-menu .left-menu {float: left;}
 .operate-menu .right-menu {float: right;}
 
-.mui-content.bg-transparent {background: rgba(0,0,0,0) !important;}
-
 .mui-bar .mui-tab-item.mui-active {color: rgb(75,193,172);}
+header.mui-bar {background: rgba(75,193,172,1);}
+header.mui-bar.mui-bar-transparent {background: rgba(75,193,172,0);}
+header .mui-title {color: whitesmoke;}
