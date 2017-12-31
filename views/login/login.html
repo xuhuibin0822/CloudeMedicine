@@ -24,7 +24,7 @@
 					<input type="tel" placeholder="密码" />
 				</div>
 			</div>
-			<button class="btn-submit">登录</button>
+			<button class="btn-submit" onclick="login();">登录</button>
 			<div class="operate-menu">
 				<button class="left-menu" data-url="regist.html">立即注册</button>
 				<button class="right-menu" data-url="forget_password.html">忘记密码?</button>
@@ -32,12 +32,12 @@
 		</div>
 	</body>
 	<script src="../../js/mui.min.js"></script>
+	<script type="text/javascript" src="../../js/app.js"></script>
 	<script type="text/javascript">
-		mui.init();
-		//跳转监听
-		mui('.operate-menu').on('click', 'button', function() {
-			location.href = this.dataset.url;
-		});
+		// 登录
+		function login() {
+			location.href = '../../index.html'
+		}
 	</script>
 
 </html>
