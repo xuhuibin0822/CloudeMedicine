@@ -48,3 +48,8 @@
 header.mui-bar {background: rgba(75,193,172,1);}
 header.mui-bar.mui-bar-transparent {background: rgba(75,193,172,0);}
 header .mui-title {color: whitesmoke;}
+
+.mui-table-view-cell {padding: 5px;}
+.mui-media-body {padding-top: 5px;}
+.mui-table-view .mui-media-object {height: 68px; width: 88px; max-width: 88px;}
+.mui-table-view-cell:after {left: 0px;}
