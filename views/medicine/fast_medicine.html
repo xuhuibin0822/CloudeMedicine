@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>快药</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="../../css/mui.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="../../css/cloud.medicine.css" />
@@ -15,16 +15,63 @@
 			<span class="mui-icon mui-icon-refresh mui-pull-right"></span>
 		</header>
 		<div class="mui-content">
-			<div class="top-tips" style="background: #FFEEEE; padding: 0 8px;">
-				<img style="height: 15px; padding-top: 5px;" src="../../img/icon_notice.png" />
-				<label style="margin-left: 5px; font-size: 11px;">1个任务发布中</label>
-				<span style="margin-top: 5px; font-size: 14px;" class="mui-icon mui-icon-arrowright"></span>
+			<div class="top-tips">
+				<img src="../../img/icon_notice.png" />
+				<label>1个任务发布中</label>
+				<span class="mui-icon mui-icon-arrowright"></span>
 			</div>
 			<div>
 				<img src="../../img/bg_add_pic.png" style="margin-left: 10%;margin-top: 10px; width: 80%;" />
-				<div></div>
+				<div class="fast-content">
+					<div class="header-footer-input">
+						<span class="point"></span>
+						<div>
+							<input type="text" placeholder="药房名称" />
+						</div>
+					</div>
+					<div class="header-footer-input">
+						<span class="point green"></span>
+						<div>
+							<input type="tel" placeholder="收件人电话" />
+						</div>
+					</div>
+					<div class="header-footer-input">
+						<span class="point purple"></span>
+						<div>
+							<input type="text" placeholder="药品名称" />
+						</div>
+					</div>
+					<div class="header-footer-input">
+						<span class="point"></span>
+						<div>
+							<input type="number" placeholder="数量" />
+						</div>
+					</div>
+					<div class="header-footer-input">
+						<span class="point"></span>
+						<div>
+							<input type="text" placeholder="配送方式" />
+						</div>
+					</div>
+					<div class="header-footer-input">
+						<span class="point"></span>
+						<div>
+							<input type="text" placeholder="备注" />
+						</div>
+					</div>
+					<div class="radio-group">
+						<div class="radio-item mui-pull-left">
+							<span></span>
+							<label>齐货</label>
+						</div>
+						<div class="radio-item mui-pull-right">
+							<span></span>
+							<label>允许多家凑货</label>
+						</div>
+					</div>
+					<button class="btn-submit">发布寻药</button>
+				</div>
 			</div>
-			<button class="btn-submit">发布寻药</button>
 		</div>
 		<nav class="mui-bar mui-bar-tab">
 			<a class="mui-tab-item" data-url="../../index.html">

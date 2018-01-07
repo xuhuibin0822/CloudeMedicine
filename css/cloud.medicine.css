@@ -7,14 +7,14 @@
 
 
 .bg-green {background-color: rgb(75, 193, 172);}
-.has-bottom {padding-bottom: 50px;}
+.has-bottom {padding-bottom: 55px;}
 
-::-webkit-input-placeholder { /* WebKit browsers */color: whitesmoke !important;}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color: whitesmoke !important;}
-::-moz-placeholder { /* Mozilla Firefox 19+ */color: whitesmoke !important;}
-:-ms-input-placeholder { /* Internet Explorer 10+ */color: whitesmoke !important;}
+.white-input::-webkit-input-placeholder { /* WebKit browsers */color: whitesmoke !important;}
+.white-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color: whitesmoke !important;}
+.white-input::-moz-placeholder { /* Mozilla Firefox 19+ */color: whitesmoke !important;}
+.white-input:-ms-input-placeholder { /* Internet Explorer 10+ */color: whitesmoke !important;}
 
-.pop {position: absolute;left: 5%; top: 5%; bottom: 5%; width: 90%; background: rgb(107, 215, 212); border-radius: 5%;}
+.pop {position: absolute;left: 5%; top: 5%; bottom: 5%; width: 90%; background: rgb(107, 215, 212); border-radius: 20px;}
 .pop>p {text-align: center;margin-bottom: 15px;margin-top: 30px; color: whitesmoke;font-size: 20px;}
 .pop .mui-icon-back {position: absolute; left: 5%; top: 30px; padding-top: 1px; padding-right: 1px; color: whitesmoke; background: rgb(46,86,89); border-radius: 100%;}
 
@@ -30,10 +30,9 @@
 .rich-input div {margin-left: 50px; border-bottom: whitesmoke 1px solid;}
 .rich-input div input {padding-left: 0px;}
 .rich-input.white-style {margin-top: 2px; width: 70%; margin-left: 15%; background: white; color: #777; border: none;}
-.rich-input.white-style input::-webkit-input-placeholder {color: #999 !important;}
 
 .btn-submit {width: 90%; height: 44px; margin-left: 5%; margin-top: 25px; background-color: rgb(75, 196, 193); color: whitesmoke; font-size: 18px; border: none;}
-.logo {display: table-cell; width: 80px; height: 80px; margin: 30px auto; background: white; border-radius: 100%; border: none;}
+.logo {display: table-cell; width: 80px; height: 80px; margin: 30px auto; border-radius: 100%; border: none;}
 
 .login {position: absolute; width: 100%; background: rgba(0,0,0,0);}
 .login .rich-input {background: rgba(0,0,0,0); border: none;}
@@ -48,16 +47,18 @@
 header.mui-bar {background: rgba(75,193,172,1);}
 header.mui-bar.mui-bar-transparent {background: rgba(75,193,172,0);}
 header .mui-title {color: whitesmoke;}
+header .mui-icon {color: whitesmoke;}
 
 .mui-table-view-cell {padding: 5px;}
 .mui-media-body {padding-top: 5px;}
+.mui-media-body label {font-size: 12px;}
 .mui-table-view .mui-media-object {height: 68px; width: 88px; max-width: 88px;}
 .mui-table-view-cell:after {left: 0px;}
 
-.top-tips {padding: 5px; background: rgb(99,77,77);}
-.top-tips span:first-child {margin-left: 5px; color: red;}
-.top-tips p {display: inline; padding-left: 5px; color: #333;}
-.top-tips span:last-child {float: right; color: #aaa;}
+.top-tips {padding: 0 8px; background: #FFEEEE;}
+.top-tips img {height: 18px; padding-top: 8px;}
+.top-tips label {margin-left: 5px; font-size: 13px;}
+.top-tips span {float: right; margin-top: 7px; font-size: 14px; color: #aaa;}
 
 .seek-list {background: rgba(0,0,0,0);}
 .seek-list:before, .seek-list:after {height: 0;}
@@ -69,4 +70,41 @@ header .mui-title {color: whitesmoke;}
 .item-content p button {position: absolute; top: 0; right: 0; padding: 2px; font-size: 10px; color: white; background: rgb(75,193,172); border: none;}
 .item-content p {position: relative; height: 30px; margin-top: 5px; margin-bottom: 0px; padding-right: 45px; line-height: 15px; color: black;}
 .item-content div {line-height: 15px; font-size: 12px; color: #333;}
-.item-content div span {margin-top: 10px; color: #666; font-size: 9px;}
+.item-content div span {margin-top: 10px; color: #666; font-size: 10px;}
+
+.mine-top {padding: 20px; background: rgb(75,193,172); color: white; text-align: center;}
+.mine-top img {display: table-cell; margin: 0px auto; width: 88px; height: 88px; border-radius: 44px;}
+.mine-top p {margin-top: 10px; color: white;}
+
+.look-order {padding: 10px; background: white;}
+.look-order span.mui-pull-right {margin-top: 2px; color: #999; font-size: 14px;}
+.look-order span span {font-size: 18px;}
+
+.line-menus {display: table; width: 100%; margin-top: 5px; background: white;}
+.line-menus .menu-item {display: table-cell; padding: 5px 0; text-align: center;}
+.line-menus.average-five .menu-item {width: 20%;}
+.line-menus.average-four .menu-item {width: 25%; padding: 15px 0;}
+.line-menus.average-three .menu-item {width: 33.3333%; padding: 15px 0;}
+.line-menus.no-divider {margin-top: 0;}
+.line-menus .menu-item p {margin-bottom: 0;}
+.line-menus.average-five .menu-item img {height: 34px;}
+.line-menus.average-four .menu-item img {width: 44px; height: 44px;}
+.line-menus.average-three .menu-item img {width: 44px; height: 44px;}
+
+.my-money {display: table; width: 100%; margin-top: 5px; background: white; text-align: center;}
+.my-money div {display: table-cell; width: 50%; padding-top: 15px;}
+.my-money div p {color: rgb(75,193,172);}
+.my-money div p:first-child {margin-bottom: 5px; font-size: 24px;}
+.my-money div p span {font-size: 14px;}
+
+.fast-content {padding: 0px 10%;}
+.header-footer-input {position: relative;}
+.header-footer-input div {margin-left: 15px; height: 35px; border-bottom: 1px #DDD solid;}
+.header-footer-input div input {margin-bottom: 0; padding: 0; background: rgba(0, 0, 0, 0); border: none;}
+			
+.point {position: absolute; top: 15px; width: 8px; height: 8px; background: red; border-radius: 100%;}
+.green {background: green;}
+.purple {background: purple;}
+
+.radio-group {display: table; margin-bottom: 0; width: 100%; padding: 10px 15px; font-size: 14px; color: #999;}
+.radio-item {display: table-cell;}
