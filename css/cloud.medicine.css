@@ -76,7 +76,9 @@ header .mui-icon {color: whitesmoke;}
 .mine-top img {display: table-cell; margin: 0px auto; width: 88px; height: 88px; border-radius: 44px;}
 .mine-top p {margin-top: 10px; color: white;}
 
-.look-order {padding: 10px; background: white;}
+.look-order {padding: 10px 10px 3px 10px; background: white; overflow: hidden;}
+.look-order img {display: inline-block; float: left; width: 35px; margin-top: -4px;}
+.look-order label {float: left; margin-top: 2px;}
 .look-order span.mui-pull-right {margin-top: 2px; color: #999; font-size: 14px;}
 .look-order span span {font-size: 18px;}
 
