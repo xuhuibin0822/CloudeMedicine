@@ -108,3 +108,16 @@ header .mui-icon {color: whitesmoke;}
 
 .radio-group {display: table; margin-bottom: 0; width: 100%; padding: 10px 15px; font-size: 14px; color: #999;}
 .radio-item {display: table-cell;}
+
+.header-tabs {display: inline-block; line-height: 100%; font-size: 12px; background: white; color: black; border-radius: 5px; border: 1px #999 solid;}
+.header-tabs .item-tab {display: inline-block; padding: 8px 10px;}
+.header-tabs .item-tab.active {background: black; color: white;}
+.order-list {background: rgba(0,0,0,0);}
+.order-list:before, .order-list:after {height: 0;}
+.order-list li:after {height: 0;}
+.item-order {background: white; border-radius: 5px;}
+.item-order .header {min-height: 30px; padding: 0 10px; font-size: 14px; border-bottom: 1px #DDD solid;}
+.item-order .header label {float: right;}
+.item-order .content {min-height: 60px;}
+.item-order .footer {display: table; width: 100%; padding: 0 5px; min-height: 30px; border-top: 1px #DDD solid;}
+.item-order .footer label {display: table-cell; width: 50%; line-height: 30px; margin: 0; text-align: center; border: none;}
