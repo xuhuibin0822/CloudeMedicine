@@ -82,8 +82,8 @@ header .mui-icon {color: whitesmoke;}
 .look-order span.mui-pull-right {margin-top: 2px; color: #999; font-size: 14px;}
 .look-order span span {font-size: 18px;}
 
-.line-menus {display: table; width: 100%; margin-top: 5px; background: white;}
-.line-menus .menu-item {display: table-cell; padding: 5px 0; text-align: center;}
+.line-menus {display: block; width: 100%; font-size: 0; margin-top: 5px; background: white;}
+.line-menus .menu-item {display: inline-block; padding: 5px 0; text-align: center;}
 .line-menus.average-five .menu-item {width: 20%;}
 .line-menus.average-four .menu-item {width: 25%; padding: 15px 0;}
 .line-menus.average-three .menu-item {width: 33.3333%; padding: 15px 0;}
