@@ -123,3 +123,12 @@ header .mui-icon {color: whitesmoke;}
 .item-order .content {min-height: 60px;}
 .item-order .footer {display: table; width: 100%; padding: 0 5px; min-height: 30px; border-top: 1px #DDD solid;}
 .item-order .footer label {display: table-cell; width: 50%; line-height: 30px; margin: 0; text-align: center; border: none;}
+
+.edit-address input {margin-top: 5px; margin-bottom: 0; border: none; background: white;}
+.edit-address>div {height: 44px; line-height: 44px; margin-top: 5px; padding: 0 15px; background: white;}
+.edit-address textarea {margin-top: 5px; border: none; min-height: 88px;}
+.edit-address>div span {float: right; margin-top: 10px;}
+.edit-address .mui-icon-arrowright {color: #999;}
+ 
+
+
