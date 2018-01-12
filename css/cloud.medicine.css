@@ -9,6 +9,18 @@
 .bg-green {background-color: rgb(75, 193, 172);}
 .has-bottom {padding-bottom: 55px;}
 
+.mui-bar {box-shadow: 0 0 1px #aaa; -webkit-box-shadow: 0 0 1px #aaa; background: white;}
+.mui-tab-item span {font-size: 12px;}
+.mui-tab-item .tab-item {display: block; width: 24px; height: 24px; margin: 0 auto; margin-top: 8px; margin-bottom: -4px; background-size: 20px 20px; background-repeat: no-repeat;}
+.mui-tab-item .home {background-image: url(../img/tab_home_default.png);}
+.mui-tab-item.mui-active .home {background-image: url(../img/tab_home_active.png);}
+.mui-tab-item .fast {background-image: url(../img/tab_fast_default.png);}
+.mui-tab-item.mui-active .fast {background-image: url(../img/tab_fast_active.png);}
+.mui-tab-item .message {background-image: url(../img/tab_message_default.png);}
+.mui-tab-item.mui-active .message {background-image: url(../img/tab_message_active.png);}
+.mui-tab-item .mine {background-image: url(../img/tab_mine_default.png);}
+.mui-tab-item.mui-active .mine {background-image: url(../img/tab_mine_active.png);}
+
 .white-input::-webkit-input-placeholder { /* WebKit browsers */color: whitesmoke !important;}
 .white-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color: whitesmoke !important;}
 .white-input::-moz-placeholder { /* Mozilla Firefox 19+ */color: whitesmoke !important;}
@@ -82,14 +94,14 @@ header .mui-icon {color: whitesmoke;}
 .look-order span.mui-pull-right {margin-top: 2px; color: #999; font-size: 14px;}
 .look-order span span {font-size: 18px;}
 
-.line-menus {display: block; width: 100%; font-size: 0; margin-top: 5px; background: white;}
+.line-menus {display: block; width: 100%; margin-top: 5px; font-size: 0; background: white;}
 .line-menus .menu-item {display: inline-block; padding: 5px 0; text-align: center;}
 .line-menus.average-five .menu-item {width: 20%;}
 .line-menus.average-four .menu-item {width: 25%; padding: 15px 0;}
 .line-menus.average-three .menu-item {width: 33.3333%; padding: 15px 0;}
 .line-menus.no-divider {margin-top: 0;}
 .line-menus .menu-item p {margin-bottom: 0;}
-.line-menus.average-five .menu-item img {height: 34px;}
+.line-menus.average-five .menu-item img {height: 34px; margin-bottom: -8px;}
 .line-menus.average-four .menu-item img {width: 44px; height: 44px;}
 .line-menus.average-three .menu-item img {width: 44px; height: 44px;}
 
