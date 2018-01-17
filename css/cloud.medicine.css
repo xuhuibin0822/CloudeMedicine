@@ -10,8 +10,8 @@
 .has-bottom {padding-bottom: 55px;}
 
 .mui-bar {box-shadow: 0 0 1px #aaa; -webkit-box-shadow: 0 0 1px #aaa; background: white;}
-.mui-tab-item span {font-size: 12px;}
-.mui-tab-item .tab-item {display: block; width: 24px; height: 24px; margin: 0 auto; margin-top: 8px; margin-bottom: -4px; background-size: 20px 20px; background-repeat: no-repeat;}
+.mui-tab-item span {font-size: 14px;}
+.mui-tab-item .tab-item {display: block; width: 27px; height: 27px; margin: 0 auto; margin-top: 5px; margin-bottom: -3px; background-size: 27px 27px; background-repeat: no-repeat;}
 .mui-tab-item .home {background-image: url(../img/tab_home_default.png);}
 .mui-tab-item.mui-active .home {background-image: url(../img/tab_home_active.png);}
 .mui-tab-item .fast {background-image: url(../img/tab_fast_default.png);}
@@ -20,7 +20,7 @@
 .mui-tab-item.mui-active .message {background-image: url(../img/tab_message_active.png);}
 .mui-tab-item .mine {background-image: url(../img/tab_mine_default.png);}
 .mui-tab-item.mui-active .mine {background-image: url(../img/tab_mine_active.png);}
-.mui-tab-item .mui-tab-label {margin-left: -3px;}
+.mui-tab-item .mui-tab-label {margin-left: 2px;}
 
 .white-input::-webkit-input-placeholder { /* WebKit browsers */color: whitesmoke !important;}
 .white-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color: whitesmoke !important;}
@@ -34,17 +34,17 @@
 .line-divider {height: 5px; background: linear-gradient(to right, rgb(79, 205, 203), rgb(171, 233, 231), rgb(79, 205, 203)); border: none;}
 
 .code-input {width: 90%; margin-top: 20px; margin-left: 5%;}
-.code-input>input {display: inline-block; width: 60%; margin-bottom: 0px; background-color: rgb(75, 196, 193);color: whitesmoke; border-radius: 10px; border: 1px rgb(115,217,216) solid;}
-.code-input>button {float: right; width: 35%;text-align: center; padding: 0; height: 40px; border-radius: 10px;color: whitesmoke;font-size: 14px;background-color: rgb(75, 196, 193);border: 1px rgb(115,217,216) solid;}
+.code-input>input {display: inline-block; width: 60%; margin-bottom: 0px; background-color: #00CABA; color: whitesmoke; border-radius: 10px; border: 1px rgb(115,217,216) solid;}
+.code-input>button {float: right; width: 35%;text-align: center; padding: 0; height: 40px; border-radius: 10px;color: whitesmoke;font-size: 14px;background-color: #00CABA; border: 1px rgb(115,217,216) solid;}
 
-.rich-input {position: relative; width: 90%; height: 40px; margin-top: 20px; margin-left: 5%; padding: 0;color: whitesmoke; background-color: rgb(75, 196, 193); border-radius: 10px; border: 1px rgb(115,217,216) solid;}
+.rich-input {position: relative; width: 90%; height: 40px; margin-top: 20px; margin-left: 5%; padding: 0;color: whitesmoke; background-color: #00CABA; border-radius: 10px; border: 1px rgb(115,217,216) solid;}
 .rich-input img {position: absolute;display: inline;top: 10px; left: 10px; min-width: 20px;height: 20px;}
 .rich-input input {padding-left: 44px; margin: 0;background: rgba(0,0,0,0);border: none;}
 .rich-input div {margin-left: 50px; border-bottom: whitesmoke 1px solid;}
 .rich-input div input {padding-left: 0px;}
 .rich-input.white-style {margin-top: 2px; width: 70%; margin-left: 15%; background: white; color: #777; border: none;}
 
-.btn-submit {width: 90%; height: 44px; margin-left: 5%; margin-top: 25px; background-color: rgb(75, 196, 193); color: whitesmoke; font-size: 18px; border: none;}
+.btn-submit {width: 90%; height: 44px; margin-left: 5%; margin-top: 25px; background-color: #00CABA; color: whitesmoke; font-size: 18px; border: none;}
 .logo {display: table-cell; width: 80px; height: 80px; margin: 30px auto; border-radius: 100%; border: none;}
 
 .login {position: absolute; width: 100%; background: rgba(0,0,0,0);}
@@ -57,8 +57,8 @@
 .operate-menu .right-menu {float: right;}
 
 .mui-bar .mui-tab-item.mui-active {color: #00CABA;}
-header.mui-bar {background: rgba(75,193,172,1);}
-header.mui-bar.mui-bar-transparent {background: rgba(75,193,172,0);}
+header.mui-bar {background: rgba(0,202,186,1);}
+header.mui-bar.mui-bar-transparent {background: rgba(0,202,186,0);}
 header.mui-bar {box-shadow: none; -webkit-box-shadow: none;}
 header .mui-title {color: whitesmoke;}
 header .mui-icon {color: whitesmoke;}
@@ -80,13 +80,13 @@ header .mui-icon {color: whitesmoke;}
 .seek-list .mui-table-view-cell {padding: 5px 10px;}
 .seek-list .mui-media-object {margin-top: 15px; width: 68px; height: 48px; background: white;}
 
-.item-content {margin-left: 30px; height: 80px; padding: 10px; z-index: 0; background: white; border: rgb(75,193,172) 1px solid; border-radius: 5px;}
-.item-content p button {position: absolute; top: 0; right: 0; padding: 2px; font-size: 10px; color: white; background: rgb(75,193,172); border: none;}
+.item-content {margin-left: 30px; height: 80px; padding: 10px; z-index: 0; background: white; border: #00CABA 1px solid; border-radius: 5px;}
+.item-content p button {position: absolute; top: 0; right: 0; padding: 2px; font-size: 10px; color: white; background: #00CABA; border: none;}
 .item-content p {position: relative; height: 30px; margin-top: 5px; margin-bottom: 0px; padding-right: 45px; line-height: 15px; color: black;}
 .item-content div {line-height: 15px; font-size: 12px; color: #333;}
 .item-content div span {margin-top: 10px; color: #666; font-size: 10px;}
 
-.mine-top {padding: 20px; background: rgb(75,193,172); color: white; text-align: center;}
+.mine-top {padding: 20px; background: #00CABA; color: white; text-align: center;}
 .mine-top img {display: table-cell; margin: 0px auto; width: 88px; height: 88px; border-radius: 44px;}
 .mine-top p {margin-top: 10px; color: white;}
 
@@ -109,7 +109,7 @@ header .mui-icon {color: whitesmoke;}
 
 .my-money {display: table; width: 100%; margin-top: 5px; background: white; text-align: center;}
 .my-money div {display: table-cell; width: 50%; padding-top: 15px;}
-.my-money div p {color: rgb(75,193,172);}
+.my-money div p {color: #00CABA;}
 .my-money div p:first-child {margin-bottom: 5px; font-size: 24px;}
 .my-money div p span {font-size: 14px;}
 
