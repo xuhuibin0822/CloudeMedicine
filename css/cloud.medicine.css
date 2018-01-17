@@ -6,7 +6,7 @@
 
 
 
-.bg-green {background-color: rgb(75, 193, 172);}
+.bg-green {background-color: #00CABA;}
 .has-bottom {padding-bottom: 55px;}
 
 .mui-bar {box-shadow: 0 0 1px #aaa; -webkit-box-shadow: 0 0 1px #aaa; background: white;}
@@ -20,6 +20,7 @@
 .mui-tab-item.mui-active .message {background-image: url(../img/tab_message_active.png);}
 .mui-tab-item .mine {background-image: url(../img/tab_mine_default.png);}
 .mui-tab-item.mui-active .mine {background-image: url(../img/tab_mine_active.png);}
+.mui-tab-item .mui-tab-label {margin-left: -3px;}
 
 .white-input::-webkit-input-placeholder { /* WebKit browsers */color: whitesmoke !important;}
 .white-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color: whitesmoke !important;}
@@ -55,7 +56,7 @@
 .operate-menu .left-menu {float: left;}
 .operate-menu .right-menu {float: right;}
 
-.mui-bar .mui-tab-item.mui-active {color: rgb(75,193,172);}
+.mui-bar .mui-tab-item.mui-active {color: #00CABA;}
 header.mui-bar {background: rgba(75,193,172,1);}
 header.mui-bar.mui-bar-transparent {background: rgba(75,193,172,0);}
 header .mui-title {color: whitesmoke;}
