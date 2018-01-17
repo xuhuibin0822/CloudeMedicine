@@ -59,6 +59,7 @@
 .mui-bar .mui-tab-item.mui-active {color: #00CABA;}
 header.mui-bar {background: rgba(75,193,172,1);}
 header.mui-bar.mui-bar-transparent {background: rgba(75,193,172,0);}
+header.mui-bar {box-shadow: none; -webkit-box-shadow: none;}
 header .mui-title {color: whitesmoke;}
 header .mui-icon {color: whitesmoke;}
 
