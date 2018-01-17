@@ -10,7 +10,7 @@
 .has-bottom {padding-bottom: 55px;}
 
 .mui-bar {box-shadow: 0 0 1px #aaa; -webkit-box-shadow: 0 0 1px #aaa; background: white;}
-.mui-tab-item span {font-size: 14px;}
+.mui-tab-item span {font-size: 13px;}
 .mui-tab-item .tab-item {display: block; width: 27px; height: 27px; margin: 0 auto; margin-top: 5px; margin-bottom: -3px; background-size: 27px 27px; background-repeat: no-repeat;}
 .mui-tab-item .home {background-image: url(../img/tab_home_default.png);}
 .mui-tab-item.mui-active .home {background-image: url(../img/tab_home_active.png);}
